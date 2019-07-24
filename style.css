@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000066;
+}
+
+#abacus_con{
+    height: 735px;
+    width: 790px;
+    position: absolute;
+    top:10px;
+    left:25%;
+}
+
+
+#right_frame{
+    position: relative;
+    float: left;
+    margin-left:50px;
+    width:45px;
+    height:650px;
+    background-image:linear-gradient(to right,#ff9900,#cc7a00);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+#rows_con{
+    float: left;
+    width:600px;
+    height:600px;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+#top_frame{
+    width:600px;
+    height: 30px;
+    background-image:linear-gradient(#ff9900,#ffe066,#cc7a00);
+}
+
+.abacus_row{
+    width:600px;
+    height: 40px;
+    margin:15px 0 15px 0;
+    position: relative;
+}
+
+.row_rod{
+    width:600px;
+    height: 10px;
+    position: absolute;
+    top:15px;
+    z-index: -1;
+    background-image:linear-gradient(gray ,white 25%,gray);
+}
+
+#part{
+    width:30px;
+    height:40px;
+    border-radius: 40px;
+    float:right;
+    margin:0 0.5px 0 0.5px;
+}
+
+#left_frame{
+    float: left;
+    width:45px;
+    height:650px;
+    background-color: burlywood;
+    background-image:linear-gradient(to left,#ff9900,#cc7a00);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+#bottom_frame_top{
+    height:50px;
+    width:756px;
+    background-color: #ffe066;
+    position: absolute;
+    bottom:71px;
+    left:17px;
+    border-bottom:1px solid white;
+    z-index: -1;
+    transform: perspective(10px) rotateX(1deg);
+}
+
+#bottom_frame{
+    margin-top:15px;
+    float: left;
+    width:790px;
+    height:70px;
+    background-image:linear-gradient(#ff9900,#cc7a00);
+}
+
+#yellow_row #part{
+    background-image:radial-gradient(circle at top left,white 2%,yellow 83%,#e6e600 15%);
+}
+
+#red_row #part {
+    background-image:radial-gradient(circle at top left,white 2%,red 83%,#e60000 15%);
+}
+
+#perpul_row #part{
+    background-image:radial-gradient(circle at top left,white 2%,purple 83%,#800080 15%);
+}
+
+#green_row #part{
+    background-image:radial-gradient(circle at top left,white 2%,green 83%,#008000 15%);
+}
+
+#blue_row #part{
+    background-image:radial-gradient(circle at top left,white 2%,blue 83%,#0000e6 15%);
+}
+
+
